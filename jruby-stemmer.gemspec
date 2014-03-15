@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.platform = "java"
+  gem.platform = "ruby"
   gem.files << "lib/java-stemmer.jar"
 
   gem.add_development_dependency "rake-compiler"
